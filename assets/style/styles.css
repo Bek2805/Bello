@@ -504,5 +504,121 @@ button {
 }
 
 /* SECTION STEPS */
+/*  SECTION FREE*/
+.free {
+  padding: 148px 0 164px;
+  background: #F9F5F2;
+}
+.free_img {
+  position: relative;
+  width: 542px;
+  height: 510px;
+}
+.free_img img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.free_dots {
+  position: absolute;
+  top: -35px;
+  left: -45px;
+}
+.free_comment {
+  position: absolute;
+  bottom: -26px;
+  right: 44px;
+  z-index: 2;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+  border-radius: 5px;
+  color: #1D253C;
+  padding: 11px 18px;
+}
+.free_right-part {
+  padding-left: 95px;
+}
+.free_title {
+  width: 496px;
+  margin: 30px 0 24px;
+}
+.free_desc {
+  margin-bottom: 23px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #5A6482;
+}
+
+/*  SECTION FREE*/
+/* SECTION CARDS*/
+.cards {
+  padding: 160px 0 132px;
+}
+.cards_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 323px;
+  padding: 40px 52px 35px 22px;
+}
+.cards_card-blue {
+  background: rgba(169, 216, 255, 0.3);
+}
+.cards_card-blue .cards_title, .cards_card-blue .cards_link {
+  color: #7CAFDD;
+}
+.cards_card-orange {
+  background: rgba(255, 174, 104, 0.3);
+}
+.cards_card-orange .cards_title, .cards_card-orange .cards_link {
+  color: #E79751;
+}
+.cards_card-red {
+  background: rgba(250, 82, 64, 0.3);
+}
+.cards_card-red .cards_title, .cards_card-red .cards_link {
+  color: #FA5240;
+}
+.cards_card-green {
+  background: rgba(18, 111, 133, 0.3);
+}
+.cards_card-green .cards_title, .cards_card-green .cards_link {
+  color: #126F85;
+}
+.cards_title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 42px;
+}
+.cards_desc {
+  position: absolute;
+  top: 147px;
+  left: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+}
+.cards_link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+.cards .grid {
+  grid-column-gap: 20px;
+}
+
+/* SECTION CARDS*/
 
 /*# sourceMappingURL=styles.css.map */
