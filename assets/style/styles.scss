@@ -364,6 +364,7 @@ button {
   }
   &_dog {
     position: absolute;
+    z-index: 5;
     right: 0;
     bottom: -30px;
   }
@@ -371,6 +372,7 @@ button {
 /* SECTION INSURANCE */
 /* SECTION STEPS */
 .steps {
+  position: relative;
   padding: 120px 0 101px;
   background: #363839;
   text-align: center;
@@ -382,11 +384,122 @@ button {
     color: #FFFFFF;
   }
   &_desc {
-    max-width: 630px;
+    max-width: 650px;
     line-height: 30px;
     color: #ACB4BF;
     margin: 0 auto;
   }
+  &_content {
+    position: relative;
+    height: 195px;
+    margin: 63px 0 36px;
+  }
+  &_sm-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &_sm-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ACB4BF;
+  }
+  &_left-part .steps_sm-title {
+    margin-bottom: 8px;
+  }
+  &_center-part .steps_sm-title {
+    margin-bottom: 14px;
+  }
+  &_right-part .steps_sm-title {
+    margin-bottom: 8px;
+  }
+  &_left-part {
+    position: absolute;
+    width: 234px;
+    left: 66px;
+    bottom: -4px;
+  }
+  &_center-part {
+    position: absolute;
+    width: 234px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 23px;
+  }
+  &_right-part {
+    position: absolute;
+    width: 256px;
+    right: 25px;
+    bottom: 22px;
+  }
+  &_one {
+    position: absolute;
+    z-index: 4;
+    top: 3px;
+    left: 167px;
+  }
+  &_two {
+    position: absolute;
+    top: 10px;
+    z-index: 4;
+    left: 1px;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_three {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    right: 162px;
+  }
+  &_circle1 {
+    position: absolute;
+    top: 24px;
+    left: 182px;
+    z-index: 3;
+  }
+  &_circle2 {
+    position: absolute;
+    left: 0;
+    right: 20px;
+    margin: 0 auto;
+    z-index: 3;
+    top: 24px;
+  }
+  &_circle3 {
+    position: absolute;
+    right: 174px;
+    top: 10px;
+  }
+  &_path {
+    position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  &_confetti {
+    position: absolute;
+    bottom: 100px;
+    right: -167px;
+  }
+  &_drop1 {
+    position: absolute;
+    left: 78px;
+    top: -13px;
+  }
+  &_drop2 {
+    position: absolute;
+    left: 347px;
+    top: 1px;
+  }
 }
+
 /* SECTION STEPS */
 
