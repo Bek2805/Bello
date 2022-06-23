@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e19f6df-6266-4d71-a89f-7aa962254322" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/style/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +66,22 @@
       <workItem from="1655478755768" duration="853000" />
       <workItem from="1655742990589" duration="4000" />
       <workItem from="1655830523807" duration="9166000" />
-      <workItem from="1655918508305" duration="14046000" />
+      <workItem from="1655918508305" duration="32671000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
