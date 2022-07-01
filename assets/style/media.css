@@ -220,6 +220,12 @@
   .steps_path {
     display: none;
   }
+  .steps_drop1 {
+    display: none;
+  }
+  .steps_drop2 {
+    display: none;
+  }
   .steps_sm-title {
     font-size: 18px;
   }
