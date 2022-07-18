@@ -366,6 +366,7 @@ button {
 }
 .insurance_dog {
   position: absolute;
+  z-index: 5;
   right: 0;
   bottom: -30px;
 }
@@ -373,6 +374,7 @@ button {
 /* SECTION INSURANCE */
 /* SECTION STEPS */
 .steps {
+  position: relative;
   padding: 120px 0 101px;
   background: #363839;
   text-align: center;
@@ -385,12 +387,339 @@ button {
   color: #FFFFFF;
 }
 .steps_desc {
-  max-width: 630px;
+  max-width: 650px;
   line-height: 30px;
   color: #ACB4BF;
   margin: 0 auto;
 }
+.steps_content {
+  position: relative;
+  height: 195px;
+  margin: 63px 0 36px;
+}
+.steps_sm-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.steps_sm-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ACB4BF;
+}
+.steps_left-part .steps_sm-title {
+  margin-bottom: 8px;
+}
+.steps_center-part .steps_sm-title {
+  margin-bottom: 14px;
+}
+.steps_right-part .steps_sm-title {
+  margin-bottom: 8px;
+}
+.steps_left-part {
+  position: absolute;
+  width: 234px;
+  left: 66px;
+  bottom: -4px;
+}
+.steps_center-part {
+  position: absolute;
+  width: 234px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 23px;
+}
+.steps_right-part {
+  position: absolute;
+  width: 256px;
+  right: 25px;
+  bottom: 22px;
+}
+.steps_one {
+  position: absolute;
+  z-index: 4;
+  top: 3px;
+  left: 167px;
+}
+.steps_two {
+  position: absolute;
+  top: 10px;
+  z-index: 4;
+  left: 1px;
+  right: 0;
+  margin: 0 auto;
+}
+.steps_three {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  right: 162px;
+}
+.steps_circle1 {
+  position: absolute;
+  top: 24px;
+  left: 182px;
+  z-index: 3;
+}
+.steps_circle2 {
+  position: absolute;
+  left: 0;
+  right: 20px;
+  margin: 0 auto;
+  z-index: 3;
+  top: 24px;
+}
+.steps_circle3 {
+  position: absolute;
+  right: 174px;
+  top: 10px;
+}
+.steps_path {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+.steps_confetti {
+  position: absolute;
+  bottom: 100px;
+  right: -167px;
+}
+.steps_drop1 {
+  position: absolute;
+  left: 78px;
+  top: -13px;
+}
+.steps_drop2 {
+  position: absolute;
+  left: 347px;
+  top: 1px;
+}
 
 /* SECTION STEPS */
+/*  SECTION FREE*/
+.free {
+  padding: 148px 0 164px;
+  background: #F9F5F2;
+}
+.free_img {
+  position: relative;
+  width: 542px;
+  height: 510px;
+}
+.free_img img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.free_dots {
+  position: absolute;
+  top: -35px;
+  left: -45px;
+}
+.free_comment {
+  position: absolute;
+  bottom: -26px;
+  right: 44px;
+  z-index: 2;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+  border-radius: 5px;
+  color: #1D253C;
+  padding: 11px 18px;
+}
+.free_right-part {
+  padding-left: 95px;
+}
+.free_title {
+  width: 496px;
+  margin: 30px 0 24px;
+}
+.free_desc {
+  margin-bottom: 23px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #5A6482;
+}
+
+/*  SECTION FREE*/
+/* SECTION CARDS*/
+.cards {
+  padding: 160px 0 132px;
+}
+.cards_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 323px;
+  padding: 40px 52px 35px 22px;
+}
+.cards_card-blue {
+  background: rgba(169, 216, 255, 0.3);
+}
+.cards_card-blue .cards_title, .cards_card-blue .cards_link {
+  color: #7CAFDD;
+}
+.cards_card-orange {
+  background: rgba(255, 174, 104, 0.3);
+}
+.cards_card-orange .cards_title, .cards_card-orange .cards_link {
+  color: #E79751;
+}
+.cards_card-red {
+  background: rgba(250, 82, 64, 0.3);
+}
+.cards_card-red .cards_title, .cards_card-red .cards_link {
+  color: #FA5240;
+}
+.cards_card-green {
+  background: rgba(18, 111, 133, 0.3);
+}
+.cards_card-green .cards_title, .cards_card-green .cards_link {
+  color: #126F85;
+}
+.cards_title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 42px;
+}
+.cards_desc {
+  position: absolute;
+  top: 147px;
+  left: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+}
+.cards_link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+.cards .grid {
+  grid-column-gap: 20px;
+}
+
+/* SECTION CARDS*/
+/* SECTION TODAY */
+.today {
+  position: relative;
+  text-align: center;
+  padding: 107px 0 85px;
+  background: #E5F3FE;
+}
+.today_title {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+}
+.today_desc {
+  color: #5A6482;
+  line-height: 30px;
+  margin: 8px 0 39px;
+}
+.today_umb {
+  position: absolute;
+  left: 64px;
+  bottom: 0;
+}
+.today_boy {
+  position: absolute;
+  right: 252px;
+  bottom: 0;
+}
+
+/* SECTION TODAY */
+/* SECTION FOOTER */
+.footer_top {
+  padding: 75px 0 39px;
+}
+.footer_left {
+  width: 335px;
+}
+.footer_desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #5A6482;
+  margin: 33px 0 22px;
+}
+.footer_inp {
+  height: 60px;
+  width: 216px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px 0 0 3px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+}
+.footer_btn {
+  background: #126F85;
+  border-radius: 0 5px 5px 0;
+  height: 60px;
+  width: 84px;
+  margin-left: -1px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.footer_btn svg {
+  margin-bottom: -3px;
+}
+.footer_font {
+  color: #5A6482;
+  margin-right: 34px;
+}
+.footer_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #1D253C;
+  margin-bottom: 22px;
+}
+.footer-desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+  margin-bottom: 19px;
+}
+.footer_bottom {
+  background: #F8F8F8;
+  padding: 30px 0 30px;
+}
+.footer_info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5A6482;
+}
+
+/* SECTION FOOTER */
 
 /*# sourceMappingURL=styles.css.map */

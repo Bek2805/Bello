@@ -364,6 +364,7 @@ button {
   }
   &_dog {
     position: absolute;
+    z-index: 5;
     right: 0;
     bottom: -30px;
   }
@@ -371,6 +372,7 @@ button {
 /* SECTION INSURANCE */
 /* SECTION STEPS */
 .steps {
+  position: relative;
   padding: 120px 0 101px;
   background: #363839;
   text-align: center;
@@ -382,11 +384,350 @@ button {
     color: #FFFFFF;
   }
   &_desc {
-    max-width: 630px;
+    max-width: 650px;
     line-height: 30px;
     color: #ACB4BF;
     margin: 0 auto;
   }
+  &_content {
+    position: relative;
+    height: 195px;
+    margin: 63px 0 36px;
+  }
+  &_sm-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &_sm-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ACB4BF;
+  }
+  &_left-part .steps_sm-title {
+    margin-bottom: 8px;
+  }
+  &_center-part .steps_sm-title {
+    margin-bottom: 14px;
+  }
+  &_right-part .steps_sm-title {
+    margin-bottom: 8px;
+  }
+  &_left-part {
+    position: absolute;
+    width: 234px;
+    left: 66px;
+    bottom: -4px;
+  }
+  &_center-part {
+    position: absolute;
+    width: 234px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 23px;
+  }
+  &_right-part {
+    position: absolute;
+    width: 256px;
+    right: 25px;
+    bottom: 22px;
+  }
+  &_one {
+    position: absolute;
+    z-index: 4;
+    top: 3px;
+    left: 167px;
+  }
+  &_two {
+    position: absolute;
+    top: 10px;
+    z-index: 4;
+    left: 1px;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_three {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    right: 162px;
+  }
+  &_circle1 {
+    position: absolute;
+    top: 24px;
+    left: 182px;
+    z-index: 3;
+  }
+  &_circle2 {
+    position: absolute;
+    left: 0;
+    right: 20px;
+    margin: 0 auto;
+    z-index: 3;
+    top: 24px;
+  }
+  &_circle3 {
+    position: absolute;
+    right: 174px;
+    top: 10px;
+  }
+  &_path {
+    position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  &_confetti {
+    position: absolute;
+    bottom: 100px;
+    right: -167px;
+  }
+  &_drop1 {
+    position: absolute;
+    left: 78px;
+    top: -13px;
+  }
+  &_drop2 {
+    position: absolute;
+    left: 347px;
+    top: 1px;
+  }
 }
 /* SECTION STEPS */
+/*  SECTION FREE*/
+.free {
+  padding: 148px 0 164px;
+  background: #F9F5F2;
+  &_img {
+    position: relative;
+    width: 542px;
+    height: 510px;
+  }
+  &_img img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &_dots {
+    position: absolute;
+    top: -35px;
+    left: -45px;
+  }
+  &_comment {
+    position: absolute;
+    bottom: -26px;
+    right: 44px;
+    z-index: 2;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 34px rgb(66 71 77 / 11%);
+    border-radius: 5px;
+    color: #1D253C;
+    padding: 11px 18px;
+  }
+  &_right-part {
+    padding-left: 95px;
+  }
+  &_title {
+    width: 496px;
+    margin: 30px 0 24px;
+  }
+  &_desc {
+    margin-bottom: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5A6482;
+  }
+}
+/*  SECTION FREE*/
+/* SECTION CARDS*/
+.cards {
+  padding: 160px 0 132px;
+
+  &_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 323px;
+    padding: 40px 52px 35px 22px;
+
+    &-blue {
+      background: rgba(169, 216, 255, 0.3);
+
+      & .cards_title, & .cards_link {
+        color: #7CAFDD;
+      }
+    }
+
+    &-orange {
+      background: rgba(255, 174, 104, 0.3);
+
+      & .cards_title, & .cards_link {
+        color: #E79751;
+      }
+    }
+
+    &-red {
+      background: rgba(250, 82, 64, 0.3);
+
+      & .cards_title, & .cards_link {
+        color: #FA5240
+      }
+    }
+
+    &-green {
+      background: rgba(18, 111, 133, 0.3);
+
+      & .cards_title, & .cards_link {
+        color: #126F85
+      }
+    }
+  }
+
+  &_title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  &_desc {
+    position: absolute;
+    top: 147px;
+    left: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+  }
+  &_link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  & .grid {
+    grid-column-gap: 20px;
+  }
+}
+/* SECTION CARDS*/
+/* SECTION TODAY */
+.today {
+  position: relative;
+  text-align: center;
+  padding: 107px 0 85px;
+  background: #E5F3FE;
+  &_title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+  }
+  &_desc {
+    color: #5A6482;
+    line-height: 30px;
+    margin: 8px 0 39px;
+  }
+  &_umb {
+  position: absolute;
+    left: 64px;
+    bottom: 0;
+  }
+  &_boy {
+    position: absolute;
+    right: 252px;
+    bottom: 0;
+  }
+}
+/* SECTION TODAY */
+/* SECTION FOOTER */
+.footer {
+  &_top {
+    padding: 75px 0 39px;
+  }
+  &_left {
+    width: 335px;
+  }
+  &_desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5A6482;
+    margin: 33px 0 22px;
+  }
+  &_inp {
+    height: 60px;
+    width: 216px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 0 0 3px;
+    padding-left: 10px;
+    margin-bottom: 28px;
+  }
+  &_btn {
+    background: #126F85;
+    border-radius: 0 5px 5px 0;
+    height: 60px;
+    width: 84px;
+    margin-left: -1px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    & svg {
+      margin-bottom: -3px;
+    }
+  }
+  &_font {
+    color: #5A6482;
+    margin-right: 34px;
+  }
+  &_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1D253C;
+    margin-bottom: 22px;
+  }
+  &-desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+    margin-bottom: 19px;
+  }
+  &_bottom {
+    background: #F8F8F8;
+    padding: 30px 0 30px;
+  }
+  &_info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+  }
+
+}
+
+/* SECTION FOOTER */
 
